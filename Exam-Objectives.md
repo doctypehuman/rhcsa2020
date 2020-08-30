@@ -1,107 +1,85 @@
-# Understand and use essential tools
+# Study points for the exam
+
+Below are the objectives for the exam. Source [Red Hat](www.redhat.com)
+
+## Understand and use essential tools
 - Access a shell prompt and issue commands with correct syntax
-
 - Use input-output redirection (>, >>, |, 2>, etc.)
-
 - Use grep and regular expressions to analyze text
-
 - Access remote systems using SSH
-
-- Log in and switch users in multi-user targets
-
+- Log in and switch users in multiuser targets
 - Archive, compress, unpack, and uncompress files using tar, star, gzip, and bzip2
-
 - Create and edit text files
+- Create, delete, copy, and move files and directories
+- Create hard and soft links
+- List, set, and change standard ugo/rwx permissions
+- Locate, read, and use system documentation including man, info, and files in /usr/share/doc
 
-# Operate running systems
+## Operate running systems
 
 - Boot, reboot, and shut down a system normally
-
 - Boot systems into different targets manually
-
 - Interrupt the boot process in order to gain access to a system
-
-- Identify CPU/memory intensive processes, adjust process priority with renice, and kill processes
-
+- Identify CPU/memory intensive processes and kill processes
+- Adjust process scheduling
+- Manage tuning profiles
 - Locate and interpret system log files and journals
-
-- Access a virtual machine's console
-
-- Start and stop virtual machines
-
+- Preserve system journals
 - Start, stop, and check the status of network services
-
 - Securely transfer files between systems
-# Configure local storage
+
+## Configure local storage
 
 - List, create, delete partitions on MBR and GPT disks
-
-- Create and remove physical volumes, assign physical volumes to volume groups, and create and delete logical volumes
-
+- Create and remove physical volumes
+- Assign physical volumes to volume groups
+- Create and delete logical volumes
 - Configure systems to mount file systems at boot by universally unique ID (UUID) or label
-
 - Add new partitions and logical volumes, and swap to a system non-destructively
 
-# Create and configure file systems
+## Create and configure file systems
 
 - Create, mount, unmount, and use vfat, ext4, and xfs file systems
-
-- Mount and unmount CIFS and NFS network file systems
-
+- Mount and unmount network file systems using NFS
 - Extend existing logical volumes
-
 - Create and configure set-GID directories for collaboration
-
-- Create and manage access control lists
-
+- Configure disk compression
+- Manage layered storage
 - Diagnose and correct file permission problems
-# Deploy, configure, and maintain systems
 
-- Configure networking and hostname resolution statically or dynamically
+## Deploy, configure, and maintain systems
 
 - Schedule tasks using at and cron
-
 - Start and stop services and configure services to start automatically at boot
-
 - Configure systems to boot into a specific target automatically
-
-- Install Red Hat Enterprise Linux systems as virtual guests
-
-- Configure systems to launch virtual machines at boot
-
-- Configure network services to start automatically at boot
-
-- Configure a system to use time services
-
+- Configure time service clients
 - Install and update software packages from Red Hat Network, a remote repository, or from the local file system
-
-- Update the kernel package appropriately to ensure a bootable system
-
+- Work with package module streams
 - Modify the system bootloader
 
-# Manage users and groups
+## Manage basic networking
+
+- Configure IPv4 and IPv6 addresses
+- Configure hostname resolution
+- Configure network services to start automatically at boot
+- Restrict network access using firewall-cmd/firewall
+
+## Manage users and groups
 
 - Create, delete, and modify local user accounts
-
 - Change passwords and adjust password aging for local user accounts
-
 - Create, delete, and modify local groups and group memberships
+- Configure superuser access
 
-- Configure a system to use an existing authentication service for user and group information
+## Manage security
 
-# Manage security
-
-
-- Configure firewall settings using firewall-config, firewall-cmd, or iptables
-
+- Configure firewall settings using firewall-cmd/firewalld
+- Create and use file access control lists
 - Configure key-based authentication for SSH
-
 - Set enforcing and permissive modes for SELinux
-
 - List and identify SELinux file and process context
-
 - Restore default file contexts
-
 - Use boolean settings to modify system SELinux settings
+- Diagnose and address routine SELinux policy violations
 
-- Diagnose and address routine SELinux policy violations#
+__As with all Red Hat performance-based exams, configurations must persist after reboot without intervention.__
