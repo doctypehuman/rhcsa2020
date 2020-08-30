@@ -1,6 +1,6 @@
 # Study points for the exam
 
-Below are the objectives for the exam. Source [Red Hat](www.redhat.com)
+Below are the objectives for the exam. *Source* [Red Hat](www.redhat.com)
 
 ## Understand and use essential tools
 - Access a shell prompt and issue commands with correct syntax
