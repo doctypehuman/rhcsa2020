@@ -6,7 +6,7 @@
 
 
 
-## Accessing Command Line
+### Accessing Command Line
 - bash shell
 - virtual console
 - shell basics ( Command - Options - Argumetns )
@@ -14,7 +14,7 @@
 - command history, reuse commands
 - editing the command line
 
-## Managing files from command line
+### Managing files from command line
 - linux file system hierarchy
 - locating files by name
 - using command line tools to manage files
