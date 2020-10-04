@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Programming in bash is an important tool that I have to use in order to execute tasks that are repeated often.
+
+# Over the course of time, I plan on creating a template that can be used for executing various tasks.
+
+# This however is not going to be that template. What I am going to do here is creat a simple bash programme and then change its properties so that the file that is saved does not have to be saved in .sh format
+
+echo " You do not have to save a bash executable file in .sh always. You can change its permission by executing the below commands."
+
+echo " chmod  + x "filename" "
+
+echo " Once this is done, the file can be executed by the system and you do not have to provide the .sh format"
+
+
